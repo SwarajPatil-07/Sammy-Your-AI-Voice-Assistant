@@ -26,5 +26,7 @@ Sammy is your personal voice-powered AI assistant built in Python. It listens fo
 ### 🔧 Prerequisites
 
 - Python 3.8+
+- Install the dependencies:
+    pip install -r requirements.txt
 
 
