@@ -1,4 +1,3 @@
-# wake_word.py
 import pvporcupine
 import pyaudio
 import struct
