@@ -9,13 +9,6 @@ def get_time():
     current_time = time.strftime("%I:%M %p")
     return f"The Current time is {current_time}"
 
-# def tell_joke():
-#     jokes = ["Why don't skeletons fight each other? They don't have the guts.",
-#         "Why don't programmers like nature? It has too many bugs.",
-#         "I told my computer I needed a break, and now it won’t stop sending me KitKat ads."
-#    ]
-#     return random.choice(jokes)
-
 def handle_command(command):
     command = command.lower()
 
@@ -50,6 +43,3 @@ def handle_command(command):
     return None      
 
 
-# def open_website(website):
-#     webbrowser.open(website)
-#     return f"Opening {website}"
